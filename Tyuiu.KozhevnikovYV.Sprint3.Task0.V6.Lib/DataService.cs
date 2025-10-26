@@ -14,7 +14,7 @@
             {
                 x *= multSeries;
             }
-            return x;
+            return Math.Round(x, 3);
         }
     }
 }
